@@ -243,68 +243,79 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <Card className="overflow-hidden hover:shadow-xl transition-all duration-300">
-              <div className="aspect-[3/4] bg-muted flex items-center justify-center">
-                <div className="text-center p-8">
-                  <Icon name="User" size={64} className="text-muted-foreground mx-auto mb-4" />
-                  <p className="text-sm text-muted-foreground">
-                    Загрузите фото специалиста через редактор
-                  </p>
-                </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 border-2">
+              <div className="aspect-[3/4] bg-muted overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/IMG_3749.png" 
+                  alt="Ким Любовь Андреевна"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-serif font-semibold mb-2">Врач-косметолог</h3>
-                <p className="text-muted-foreground mb-2">Стаж работы: 10+ лет</p>
-                <p className="text-sm text-muted-foreground">
-                  Специализация: инъекционная косметология, контурная пластика
+                <h3 className="text-2xl font-serif font-semibold mb-2">Ким Любовь Андреевна</h3>
+                <p className="text-muted-foreground mb-3 font-medium">Косметолог-эстетист с медицинским образованием</p>
+                <p className="text-sm text-muted-foreground mb-4 italic">
+                  Для которого здоровье и красота кожи неразделимы
                 </p>
+                <div className="border-t border-border pt-4 mt-4">
+                  <p className="text-sm font-semibold mb-2">Деликатно. Профессионально.</p>
+                  <p className="text-sm text-muted-foreground mb-3">Комплексный уход — с заботой о вашей коже</p>
+                  <ul className="space-y-1 text-sm text-muted-foreground">
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Здоровье кожи</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Индивидуальный подход</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Естественные, гармоничные результаты</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </Card>
 
-            <Card className="overflow-hidden hover:shadow-xl transition-all duration-300">
-              <div className="aspect-[3/4] bg-muted flex items-center justify-center">
-                <div className="text-center p-8">
-                  <Icon name="User" size={64} className="text-muted-foreground mx-auto mb-4" />
-                  <p className="text-sm text-muted-foreground">
-                    Загрузите фото специалиста через редактор
-                  </p>
-                </div>
+            <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 border-2">
+              <div className="aspect-[3/4] bg-muted overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/IMG_3747.png" 
+                  alt="Титаренко Наталья Борисовна"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-serif font-semibold mb-2">Врач-дерматолог</h3>
-                <p className="text-muted-foreground mb-2">Стаж работы: 8+ лет</p>
-                <p className="text-sm text-muted-foreground">
-                  Специализация: лечение проблемной кожи, удаление новообразований
+                <h3 className="text-2xl font-serif font-semibold mb-2">Титаренко Наталья Борисовна</h3>
+                <p className="text-muted-foreground mb-3 font-medium">Врач-дерматолог-косметолог</p>
+                <p className="text-sm text-muted-foreground mb-4 italic">
+                  Для которого здоровье и красота кожи неразделимы
                 </p>
-              </div>
-            </Card>
-
-            <Card className="overflow-hidden hover:shadow-xl transition-all duration-300">
-              <div className="aspect-[3/4] bg-muted flex items-center justify-center">
-                <div className="text-center p-8">
-                  <Icon name="User" size={64} className="text-muted-foreground mx-auto mb-4" />
-                  <p className="text-sm text-muted-foreground">
-                    Загрузите фото специалиста через редактор
-                  </p>
+                <div className="border-t border-border pt-4 mt-4">
+                  <p className="text-sm font-semibold mb-2">Деликатно. Профессионально.</p>
+                  <p className="text-sm text-muted-foreground mb-3">Комплексная работа — от лечения к эстетике</p>
+                  <ul className="space-y-1 text-sm text-muted-foreground">
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Более 30 лет в медицине</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Профессиональная дерматология</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1">•</span>
+                      <span>Естественные, гармоничные результаты</span>
+                    </li>
+                  </ul>
                 </div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-serif font-semibold mb-2">Специалист</h3>
-                <p className="text-muted-foreground mb-2">Стаж работы: 5+ лет</p>
-                <p className="text-sm text-muted-foreground">
-                  Специализация: аппаратная косметология, массаж
-                </p>
               </div>
             </Card>
           </div>
 
-          <div className="text-center mt-8 p-6 bg-muted/30 rounded-lg max-w-3xl mx-auto">
-            <Icon name="Info" className="text-primary mx-auto mb-3" size={24} />
-            <p className="text-muted-foreground">
-              <strong>Как добавить фото врачей:</strong> В редакторе poehali.dev наведите на изображение и нажмите на иконку редактирования, затем загрузите фото специалиста
-            </p>
-          </div>
+
         </div>
       </section>
 
