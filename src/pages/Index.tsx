@@ -247,7 +247,7 @@ const Index = () => {
             <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 border-2">
               <div className="aspect-[3/4] bg-muted overflow-hidden">
                 <img 
-                  src="https://cdn.poehali.dev/files/IMG_3749.png" 
+                  src="https://cdn.poehali.dev/files/IMG_6050.jpeg" 
                   alt="Ким Любовь Андреевна"
                   className="w-full h-full object-cover"
                 />
@@ -282,7 +282,7 @@ const Index = () => {
             <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 border-2">
               <div className="aspect-[3/4] bg-muted overflow-hidden">
                 <img 
-                  src="https://cdn.poehali.dev/files/IMG_3747.png" 
+                  src="https://cdn.poehali.dev/files/IMG_6049.jpeg" 
                   alt="Титаренко Наталья Борисовна"
                   className="w-full h-full object-cover"
                 />
