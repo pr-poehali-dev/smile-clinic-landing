@@ -116,7 +116,7 @@ const Index = () => {
               Клиника эстетической медицины «Улыбка»
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-light">
-              Красота и здоровье вашей кожи с заботой о каждой детали
+              «Любовь к красоте — это вкус. Создание красоты — это искусство»
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
